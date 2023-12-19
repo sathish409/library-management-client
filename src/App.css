@@ -1,0 +1,67 @@
+.main {
+  min-height: 80vh;
+}
+a {
+  text-decoration: none !important;
+}
+.form-center {
+  width: 450px;
+  margin: auto;
+}
+
+.side-menu {
+  width: 300px;
+}
+
+.sidebar .bottom ul {
+  list-style: none;
+}
+
+.sidebar .bottom ul li {
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.carousel {
+  height: 60vh;
+}
+.carousel img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 36rem;
+}
+
+.avatar {
+  background: blue;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.review {
+  width: calc(100% - 100px);
+}
+
+.button-group {
+  position: relative;
+  top: -1.5rem;
+}
+
+.tr-red {
+  color: red !important;
+}
+
+.new-star:hover {
+  cursor: pointer;
+}
